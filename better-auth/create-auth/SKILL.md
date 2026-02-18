@@ -7,6 +7,10 @@ description: Skill for creating auth layers in TypeScript/JavaScript apps using 
 
 Guide for adding authentication to TypeScript/JavaScript applications using Better Auth.
 
+Prompt the user to select a database, authentication method, and other configuration options if they are starting from scratch. If you can determine which database the user is using, you don’t need to prompt them for it.
+
+At the end of the implementation, guide users thoroughly on the next steps.
+
 **For code examples and syntax, see [better-auth.com/docs](https://better-auth.com/docs).**
 
 ---
