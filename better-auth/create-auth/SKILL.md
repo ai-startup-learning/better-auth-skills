@@ -74,9 +74,9 @@ Use the `AskQuestion` tool to ask the user **all applicable questions in a singl
      - If email verification enabled: Email verification
    - `allow_multiple: true`
 
-10. **Auth UI preference** (always ask)
-   - Prompt: "How do you want to build the auth UI?"
-   - Options: I'll build my own forms | Use Better Auth's pre-built UI components
+10. **Auth UI style** (always ask)
+   - Prompt: "What style do you want for the auth pages? Pick one or describe your own."
+   - Options: Minimal & clean | Centered card with background | Split layout (form + hero image) | Floating / glassmorphism | Other (I'll describe)
 
 ### Step 3: Summarize the plan
 
