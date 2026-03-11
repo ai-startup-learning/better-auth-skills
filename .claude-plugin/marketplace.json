@@ -5,8 +5,8 @@
     "email": "alex@better-auth.com"
   },
   "metadata": {
-    "description": "Better Auth skills",
-    "version": "1.0.0"
+    "description": "Better Auth skills for production-grade TypeScript authentication",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -16,7 +16,11 @@
       "strict": false,
       "skills": [
         "./better-auth/create-auth",
-        "./better-auth/best-practices"
+        "./better-auth/best-practices",
+        "./better-auth/emailAndPassword",
+        "./better-auth/organization",
+        "./better-auth/twoFactor",
+        "./security"
       ]
     }
   ]
