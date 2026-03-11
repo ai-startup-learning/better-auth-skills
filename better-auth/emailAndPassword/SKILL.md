@@ -1,7 +1,9 @@
 ---
-name: email-and-password-best-practices
+name: emailAndPassword
 description: Configure email verification, implement password reset flows, set password policies, and customise hashing algorithms for Better Auth email/password authentication. Use when users need to set up login, sign-in, sign-up, credential authentication, or password security with Better Auth.
 ---
+
+> **Always fetch up-to-date docs before writing code.** Use [`https://better-auth.com/llms.txt`](https://better-auth.com/llms.txt) as an index — find the relevant section (e.g. Authentication → Email & Password), fetch that doc page, and use it for current API signatures and examples.
 
 ## Quick Start
 
@@ -210,3 +212,11 @@ export const auth = betterAuth({
 ```
 
 **Note**: If you switch hashing algorithms on an existing system, users with passwords hashed using the old algorithm won't be able to sign in. Plan a migration strategy if needed.
+
+---
+
+## Resources
+
+- [LLMs.txt index](https://better-auth.com/llms.txt) — find the exact doc page for any feature
+- [Email & Password docs](https://better-auth.com/docs/authentication/email-password)
+- [Docs](https://better-auth.com/docs)

@@ -1,7 +1,9 @@
 ---
-name: better-auth-security-best-practices
+name: security
 description: Configure rate limiting, manage auth secrets, set up CSRF protection, define trusted origins, secure sessions and cookies, encrypt OAuth tokens, track IP addresses, and implement audit logging for Better Auth. Use when users need to secure their auth setup, prevent brute force attacks, or harden a Better Auth deployment.
 ---
+
+> **Always fetch up-to-date docs before writing code.** Use [`https://better-auth.com/llms.txt`](https://better-auth.com/llms.txt) as an index — find the relevant section (e.g. Reference → Security, Infrastructure), fetch that doc page, and use it for current API signatures and examples.
 
 ## Secret Management
 
@@ -430,3 +432,11 @@ Before deploying to production:
 - [ ] **Background Tasks**: Configure for serverless platforms
 - [ ] **Audit Logging**: Implement via `databaseHooks` or `hooks`
 - [ ] **IP Tracking**: Configure headers if behind a proxy
+
+---
+
+## Resources
+
+- [LLMs.txt index](https://better-auth.com/llms.txt) — find the exact doc page for any feature
+- [Security reference docs](https://better-auth.com/docs/reference/security)
+- [Docs](https://better-auth.com/docs)

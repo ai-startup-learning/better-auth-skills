@@ -1,7 +1,9 @@
 ---
-name: organization-best-practices
+name: organization
 description: Configure multi-tenant organizations, manage members and invitations, define custom roles and permissions, set up teams, and implement RBAC using Better Auth's organization plugin. Use when users need org setup, team management, member roles, access control, or the Better Auth organization plugin.
 ---
+
+> **Always fetch up-to-date docs before writing code.** Use [`https://better-auth.com/llms.txt`](https://better-auth.com/llms.txt) as an index — find the relevant section (e.g. Plugins → Organization), fetch that doc page, and use it for current API signatures and examples.
 
 ## Setup
 
@@ -477,3 +479,11 @@ export const auth = betterAuth({
   ],
 });
 ```
+
+---
+
+## Resources
+
+- [LLMs.txt index](https://better-auth.com/llms.txt) — find the exact doc page for any feature
+- [Organization plugin docs](https://better-auth.com/docs/plugins/organization)
+- [Docs](https://better-auth.com/docs)

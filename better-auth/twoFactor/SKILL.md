@@ -1,7 +1,9 @@
 ---
-name: two-factor-authentication-best-practices
+name: twoFactor
 description: Configure TOTP authenticator apps, send OTP codes via email/SMS, manage backup codes, handle trusted devices, and implement 2FA sign-in flows using Better Auth's twoFactor plugin. Use when users need MFA, multi-factor authentication, authenticator setup, or login security with Better Auth.
 ---
+
+> **Always fetch up-to-date docs before writing code.** Use [`https://better-auth.com/llms.txt`](https://better-auth.com/llms.txt) as an index — find the relevant section (e.g. Plugins → Two Factor), fetch that doc page, and use it for current API signatures and examples.
 
 ## Setup
 
@@ -329,3 +331,11 @@ export const auth = betterAuth({
   ],
 });
 ```
+
+---
+
+## Resources
+
+- [LLMs.txt index](https://better-auth.com/llms.txt) — find the exact doc page for any feature
+- [Two Factor plugin docs](https://better-auth.com/docs/plugins/2fa)
+- [Docs](https://better-auth.com/docs)

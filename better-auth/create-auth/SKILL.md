@@ -7,7 +7,7 @@ description: Scaffold and implement authentication in TypeScript/JavaScript apps
 
 Guide for adding authentication to TypeScript/JavaScript applications using Better Auth.
 
-**For code examples and syntax, see [better-auth.com/docs](https://better-auth.com/docs).**
+> **Always fetch up-to-date docs before writing code.** Use [`https://better-auth.com/llms.txt`](https://better-auth.com/llms.txt) as an index — find the relevant section (e.g. Adapters, Plugins, Integrations), fetch that doc page, and use it for current API signatures and examples.
 
 ---
 
